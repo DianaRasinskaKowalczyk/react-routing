@@ -14,7 +14,7 @@ const HomePage = () => {
 				<Route exact path='/'>
 					<Posts postsList={posts} />
 				</Route>
-				<Route exact path='/category'>
+				<Route path='/category'>
 					<Posts postsList={posts} />
 				</Route>
 				<Route path='/category/:category'>

@@ -10,7 +10,7 @@ function App() {
 				<Route exact path='/'>
 					<HomePage />
 				</Route>
-				<Route path='/hello'>
+				<Route path='/:category-flower/:title'>
 					<PostPage />
 				</Route>
 			</Switch>
