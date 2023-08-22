@@ -1,6 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom/cjs/react-router-dom.min";
-import Post from "./Post";
+import { useParams } from "react-router-dom";
 import Posts from "./Posts";
 
 const PostsByCategory = ({ postsList }) => {
@@ -12,5 +11,7 @@ const PostsByCategory = ({ postsList }) => {
 
 	return <Posts postsList={filteredPosts} />;
 };
+
+
 
 export default PostsByCategory;

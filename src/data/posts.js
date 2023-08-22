@@ -6,6 +6,7 @@ export const posts = [
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id feugiat enim, in pellentesque odio. Aenean blandit vel eros non bibendum.",
 		text: "In imperdiet id ante at varius. Integer ac nulla non quam euismod scelerisque. Ut non turpis quis tellus tristique consectetur. Etiam maximus risus non diam imperdiet, eget rutrum ipsum euismod. Quisque id vehicula odio. Vivamus ultricies sem libero. Nam bibendum nulla purus, at efficitur libero rhoncus ut.",
 		category: "garden",
+		catId: [1, 3],
 		date: "2022-03-06",
 	},
 	{
@@ -15,6 +16,7 @@ export const posts = [
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id feugiat enim, in pellentesque odio. Aenean blandit vel eros non bibendum.",
 		text: "In imperdiet id ante at varius. Integer ac nulla non quam euismod scelerisque. Ut non turpis quis tellus tristique consectetur. Etiam maximus risus non diam imperdiet, eget rutrum ipsum euismod. Quisque id vehicula odio. Vivamus ultricies sem libero. Nam bibendum nulla purus, at efficitur libero rhoncus ut.",
 		category: "garden",
+		catId: [1, 3],
 		date: "2022-05-06",
 	},
 	{
@@ -24,6 +26,7 @@ export const posts = [
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id feugiat enim, in pellentesque odio. Aenean blandit vel eros non bibendum.",
 		text: "In imperdiet id ante at varius. Integer ac nulla non quam euismod scelerisque. Ut non turpis quis tellus tristique consectetur. Etiam maximus risus non diam imperdiet, eget rutrum ipsum euismod. Quisque id vehicula odio. Vivamus ultricies sem libero. Nam bibendum nulla purus, at efficitur libero rhoncus ut.",
 		category: "garden",
+		catId: [1, 3],
 		date: "2022-04-06",
 	},
 	{
@@ -33,6 +36,7 @@ export const posts = [
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id feugiat enim, in pellentesque odio. Aenean blandit vel eros non bibendum.",
 		text: "In imperdiet id ante at varius. Integer ac nulla non quam euismod scelerisque. Ut non turpis quis tellus tristique consectetur. Etiam maximus risus non diam imperdiet, eget rutrum ipsum euismod. Quisque id vehicula odio. Vivamus ultricies sem libero. Nam bibendum nulla purus, at efficitur libero rhoncus ut.",
 		category: "garden",
+		catId: [1, 3],
 		date: "2023-05-06",
 	},
 	{
@@ -42,6 +46,7 @@ export const posts = [
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id feugiat enim, in pellentesque odio. Aenean blandit vel eros non bibendum.",
 		text: "In imperdiet id ante at varius. Integer ac nulla non quam euismod scelerisque. Ut non turpis quis tellus tristique consectetur. Etiam maximus risus non diam imperdiet, eget rutrum ipsum euismod. Quisque id vehicula odio. Vivamus ultricies sem libero. Nam bibendum nulla purus, at efficitur libero rhoncus ut.",
 		category: "garden",
+		catId: [1, 3],
 		date: "2021-05-06",
 	},
 	{
@@ -51,6 +56,7 @@ export const posts = [
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id feugiat enim, in pellentesque odio. Aenean blandit vel eros non bibendum.",
 		text: "In imperdiet id ante at varius. Integer ac nulla non quam euismod scelerisque. Ut non turpis quis tellus tristique consectetur. Etiam maximus risus non diam imperdiet, eget rutrum ipsum euismod. Quisque id vehicula odio. Vivamus ultricies sem libero. Nam bibendum nulla purus, at efficitur libero rhoncus ut.",
 		category: "garden",
+		catId: [1, 3],
 		date: "2021-05-06",
 	},
 	{
@@ -60,6 +66,7 @@ export const posts = [
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id feugiat enim, in pellentesque odio. Aenean blandit vel eros non bibendum.",
 		text: "In imperdiet id ante at varius. Integer ac nulla non quam euismod scelerisque. Ut non turpis quis tellus tristique consectetur. Etiam maximus risus non diam imperdiet, eget rutrum ipsum euismod. Quisque id vehicula odio. Vivamus ultricies sem libero. Nam bibendum nulla purus, at efficitur libero rhoncus ut.",
 		category: "home",
+		catId: [1, 2],
 		date: "2022-07-06",
 	},
 	{
@@ -78,6 +85,7 @@ export const posts = [
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id feugiat enim, in pellentesque odio. Aenean blandit vel eros non bibendum.",
 		text: "In imperdiet id ante at varius. Integer ac nulla non quam euismod scelerisque. Ut non turpis quis tellus tristique consectetur. Etiam maximus risus non diam imperdiet, eget rutrum ipsum euismod. Quisque id vehicula odio. Vivamus ultricies sem libero. Nam bibendum nulla purus, at efficitur libero rhoncus ut.",
 		category: "home",
+		catId: [1, 2],
 		date: "2022-05-06",
 	},
 	{
@@ -87,6 +95,7 @@ export const posts = [
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id feugiat enim, in pellentesque odio. Aenean blandit vel eros non bibendum.",
 		text: "In imperdiet id ante at varius. Integer ac nulla non quam euismod scelerisque. Ut non turpis quis tellus tristique consectetur. Etiam maximus risus non diam imperdiet, eget rutrum ipsum euismod. Quisque id vehicula odio. Vivamus ultricies sem libero. Nam bibendum nulla purus, at efficitur libero rhoncus ut.",
 		category: "home",
+		catId: [1, 2],
 		date: "2022-05-06",
 	},
 	{
@@ -96,6 +105,7 @@ export const posts = [
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id feugiat enim, in pellentesque odio. Aenean blandit vel eros non bibendum.",
 		text: "In imperdiet id ante at varius. Integer ac nulla non quam euismod scelerisque. Ut non turpis quis tellus tristique consectetur. Etiam maximus risus non diam imperdiet, eget rutrum ipsum euismod. Quisque id vehicula odio. Vivamus ultricies sem libero. Nam bibendum nulla purus, at efficitur libero rhoncus ut.",
 		category: "home",
+		catId: [1, 2],
 		date: "2022-05-06",
 	},
 ];

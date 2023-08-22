@@ -1,12 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { categories } from "../data/categories";
 
 const Nav = () => {
-	const categories = [
-		{ text: "All flowers", url: "/" },
-		{ text: "Home flowers", url: "/category/garden" },
-		{ text: "Garden flowers", url: "/category/home" },
-	];
+
 
 	const activeClass = "active--category";
 
