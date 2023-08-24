@@ -1,25 +1,33 @@
 import React from "react";
-import { Link, useParams } from "react-router-dom/cjs/react-router-dom.min";
+import { NavLink, useParams } from "react-router-dom";
+
 const PaginationRoute = props => {
-	const { children, limit = 6, path } = props;
+	const { children, limit = 3, path } = props;
+	const { page } = useParams();
+
 	const length = children.length;
-	const pages = Math.ceil(length / limit);
-	const page = useParams();
+
 	const begin = limit * (page - 1);
 	const end = page * limit;
+	const pages = Math.ceil(length / limit);
+
+	const activeClass = "active--link";
 
 	const links = new Array(pages).fill(0).map((item, index) => (
 		<li key={index}>
-			<Link to={`${path}/${index + 1}`}>{index + 1}</Link>
+			<NavLink
+				className='nav__pagination--link'
+				activeClassName={activeClass}
+				to={`${path}/${index + 1}`}>
+				{index + 1}
+			</NavLink>
 		</li>
 	));
 
 	return (
 		<>
 			{children.slice(begin, end)}
-			<nav>
-				<ul>{links}</ul>
-			</nav>
+			<nav className='nav__pagination'>{links}</nav>
 		</>
 	);
 };

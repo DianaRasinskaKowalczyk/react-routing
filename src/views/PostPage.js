@@ -5,12 +5,12 @@ import BackButton from "../components/BackButton";
 import PostPresentation from "../components/PostPresentation";
 
 const PostPage = () => {
-	const { title, category } = useParams();
+	const { title, id } = useParams();
 
 	return (
 		<>
 			<BackButton />
-			<PostPresentation postsList={posts} category={category} title={title} />
+			<PostPresentation postsList={posts} id={id} title={title} />
 		</>
 	);
 };

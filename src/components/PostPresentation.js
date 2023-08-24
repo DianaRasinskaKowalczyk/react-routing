@@ -1,16 +1,16 @@
 import React from "react";
-import { Redirect, Link } from "react-router-dom/cjs/react-router-dom.min";
+import { Redirect } from "react-router-dom/cjs/react-router-dom.min";
 import flower from "./..//flower.png";
 
 const PostPresentation = props => {
-	const { postsList, category, title } = props;
+	const { postsList, id, title } = props;
 
 	const filteredPosts = postsList.filter(item => {
-		return item.category === category;
+		return item.id === parseInt(id);
 	});
 
 	const [post = null] = filteredPosts.filter(item => {
-		return item.title.toLowerCase() === title;
+		return item.title.toLowerCase() === title.toLowerCase();
 	});
 
 	if (post === null) {
@@ -25,12 +25,6 @@ const PostPresentation = props => {
 				<img src={flower} className='post__img' alt='flower' />
 			</div>
 			<p className='post__text'>{post.text}</p>
-			<p>
-				<Link className='post__category' to={`/category/${post.category}`}>
-					category: {""}
-					{post.category}
-				</Link>
-			</p>
 		</section>
 	);
 };

@@ -1,27 +1,12 @@
 import React from "react";
-import Header from "../components/Header";
-import { Route, Switch } from "react-router-dom/cjs/react-router-dom.min";
-import Posts from "../components/Posts";
-import { posts } from "../data/posts";
-import PostsByCategory from "../components/PostsByCategory";
-import Footer from "../components/Footer";
 
 const HomePage = () => {
 	return (
 		<>
-			<Header />
-			<Switch>
-				<Route exact path='/'>
-					<Posts postsList={posts} />
-				</Route>
-				<Route path='/category'>
-					<Posts postsList={posts} />
-				</Route>
-				<Route path='/category/:category'>
-					<PostsByCategory postsList={posts} />
-				</Route>
-			</Switch>
-			<Footer />
+			<div className='home__title'>Welcome to my blog on flowers.</div>
+			<p className='home__text'>
+				Discover their beauty and see which is the best for your home or garden.
+			</p>
 		</>
 	);
 };

@@ -1,11 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom/cjs/react-router-dom.min";
+import { useHistory } from "react-router-dom";
 
 const BackButton = () => {
+	let history = useHistory();
+
 	return (
-		<Link className='button__link' to='/'>
-			<button className='button'>back to main page</button>
-		</Link>
+		<button onClick={() => history.goBack()} className='button'>
+			back to main page
+		</button>
 	);
 };
 
