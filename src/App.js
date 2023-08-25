@@ -1,6 +1,5 @@
 import HomePage from "./views/HomePage";
-import { HashRouter as Router } from "react-router-dom/cjs/react-router-dom.min";
-import { Route, Switch } from "react-router-dom/cjs/react-router-dom.min";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import FlowersPage from "./views/FlowersPage";
 import ContainerPage from "./views/ContainerPage";
 import NotFoundPage from "./views/NotFoundPage";

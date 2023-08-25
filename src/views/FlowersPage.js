@@ -1,6 +1,6 @@
 import React from "react";
 import { categories } from "../data/categories";
-import { NavLink, Route } from "react-router-dom";
+import { NavLink, Route, Redirect } from "react-router-dom";
 import Post from "../components/Post";
 import { posts } from "../data/posts";
 import Pagination from "../components/Pagination";
@@ -34,21 +34,13 @@ const FlowersPage = () => {
 		);
 	});
 
-	const allFlowersPosts = posts.filter(post => post.categories.includes(1));
-
 	return (
 		<>
+			<Route exact path='/flowers'>
+				<Redirect to='/flowers/all/1' />
+			</Route>
 			<nav className='flowers__nav'>{nav}</nav>
-			<ul className='posts__list'>
-				<Route index>
-					<Pagination limit={4} path='/flowers'>
-						{allFlowersPosts.map(post => (
-							<Post key={post.id} {...post} />
-						))}
-					</Pagination>
-				</Route>
-				{routes}
-			</ul>
+			<ul className='posts__list'>{routes}</ul>
 		</>
 	);
 };
